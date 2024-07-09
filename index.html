@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-CO">
+<head>
+    <title>Encriptador</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Encriptador">
+    <meta name="keywords" content="Encriptador, Encriptar, Desencriptar">
+    <meta name="author" content="Mario">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <p>Cargando...</p>
+    </div>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+    <div class="container">
+        <div class="input-area">
+            <textarea id="text-input" placeholder="Ingrese texto"></textarea>
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-area">
+            <p id="result"></p>
+            <button id="copy-btn" onclick="copyText()">Copiar</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
